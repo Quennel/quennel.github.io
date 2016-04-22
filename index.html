@@ -130,6 +130,66 @@
 
       <div class="body-wrap">
   
+    <article id="post-TreadBugs" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/04/22/TreadBugs/" class="article-date">
+  	<time datetime="2016-04-22T07:14:29.000Z" itemprop="datePublished">2016-04-22</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/04/22/TreadBugs/">一路踩过的坑</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <ul>
+<li><p>程序底部Menu，在Android 21以上，需要在AndroidManifest中的targetSDK指定为14以下，才能正常显示（google已经逐渐抛弃这种交互）</p>
+</li>
+<li><p>静态注册的BroadcastReceiver系统会有缓存，重命名需要谨慎</p>
+</li>
+<li><p>部分系统可能会在一定情况下限制服务的启动(启动服务最好有统一启动方法，必要时可以做异常拦截)</p>
+</li>
+</ul>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
     <article id="post-ExcellentArticles" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
